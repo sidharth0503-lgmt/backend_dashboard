@@ -1,0 +1,43 @@
+.customers-page {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.profit {
+  font-weight: bold;
+}
+
+.profit.high {
+  color: green;
+}
+
+.profit.low {
+  color: orange;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-text {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.rating-text.high {
+  color: green;
+}
+
+.rating-text.low {
+  color: orange;
+}
+
+.product {
+  color: red;
+  font-weight: bold;
+}

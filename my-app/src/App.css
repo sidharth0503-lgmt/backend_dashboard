@@ -1,0 +1,123 @@
+App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.AppHeader {
+  background-color: #181918;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  color: rgb(240, 235, 239);
+}
+.AppFooter {
+  background-color: #0b0b0b;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Space around each item */
+  color: white; /* Text color is now white */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 20px; /* Optional padding for extra spacing */
+}
+
+.footer-item {
+  margin: 0 10px; /* Space between the items */
+}
+
+@media (max-width: 768px) {
+  .AppFooter {
+    flex-direction: column; /* Stack items on smaller screens */
+    height: auto;
+    padding: 10px;
+  }
+
+  .footer-item {
+    margin-bottom: 5px;
+  }
+}
+
+
+.footer-item {
+  margin: 0 10px; /* Space between the items */
+}
+
+@media (max-width: 768px) {
+  .AppFooter {
+    flex-direction: column; /* Stack items on smaller screens */
+    height: auto;
+    padding: 10px;
+  }
+
+  .footer-item {
+    margin-bottom: 5px;
+  }
+}
+
+
+
+.SideMenuANDPageContent {
+  display:flex;
+  flex: 1;
+}
+
+.SideMenu {
+  width: 200px;
+  background-color: #070707;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PageContent {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #070707ae;
+  overflow-y: auto;
+}
+
+.SideMenu a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: rgb(236, 245, 246);
+  text-decoration: none;
+  transition: background-color 0.2s;
+  
+  
+}
+
+.SideMenu a:hover {
+  background-color: #d20a85;
+}
+.sideMenu--open{
+  transform: translate(0%);
+}
+
+.SideMenu .icon {
+  margin-right: 10px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.AppHeader {
+  background-color: #181918;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  color: rgb(240, 235, 239);
+}
+

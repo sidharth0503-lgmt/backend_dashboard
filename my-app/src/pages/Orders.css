@@ -1,0 +1,45 @@
+.create-order-page {
+    padding: 20px;
+    background-color: #111111;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.delivered {
+    color: green;
+  }
+  
+  .status.pending {
+    color: orange;
+  }
+  
+  .status.progress {
+    color: blue;
+  }
+  
+  .status.cancelled {
+    color: red;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  .total.cancelled {
+    color: red;  /* Change the color based on status if needed */
+  }
+  
+  .profit {
+    font-weight: bold;
+  }
+  
+  .profit.high {
+    color: green;
+  }
+  
+  .profit.low {
+    color: orange;
+  }
+  

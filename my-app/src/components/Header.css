@@ -1,0 +1,15 @@
+
+.AppHeader {
+    background-color: #cbbfc9;
+    height: 60px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: rgb(243, 237, 231);
+  }
+  
+  .header-right {
+    margin-left: auto;
+  }
+  

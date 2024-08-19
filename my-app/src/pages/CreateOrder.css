@@ -1,0 +1,95 @@
+/* CreateOrder.css */
+.orders-container {
+  padding: 20px;
+  background-color: #060606; /* Dark background */
+  color: #f1f1f1; /* Light text color */
+}
+
+.heigh-h {
+  color: #eef4ef; /* White heading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.delete-button {
+  background-color: #f8f3f3;
+  color: rgb(9, 9, 9);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.orders-table th {
+  background-color: #333333;
+  color: white;
+}
+
+.orders-table td {
+  background-color: #222222;
+}
+
+/* Styling for the Customer column */
+.customer-column {
+  color: #0e0e0e; /* Dark black color for customer names */
+  font-weight: bold;
+}
+
+/* Styling for the Status column with different colors */
+.status-column {
+  font-weight: bold;
+}
+
+.status-column.delivered {
+  color: green;
+}
+
+.status-column.pending {
+  color: orange;
+}
+
+.status-column.progress {
+  color: blue;
+}
+
+.status-column.cancelled {
+  color: red;
+}
+
+/* Styling for the Profit column */
+.profit-column {
+  font-weight: bold;
+}
+
+.profit-column.high {
+  color: green;
+}
+
+.profit-column.low {
+  color: orange;
+}
+
+/* Styling for the Total column */
+.total-column {
+  font-weight: bold;
+}
+
+.total-column.cancelled {
+  color: red;
+}

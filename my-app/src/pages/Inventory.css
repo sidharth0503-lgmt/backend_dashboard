@@ -1,0 +1,92 @@
+/* Container for the entire inventory */
+.inventory-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;  /* Ensure the container takes up full height of the screen */
+}
+
+/* Grid layout for medicines */
+.medicine-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Styling for individual medicine items */
+.medicine-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.medicine-item:hover {
+  transform: translateY(-5px);  /* Slight hover effect */
+}
+
+/* Medicine image styling */
+.medicine-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the medicine name */
+h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Base style for paragraph tags */
+p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Specific style for the price */
+p.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a73e8;  /* Blue color */
+}
+
+/* Specific style for the description */
+p.description {
+  font-size: 14px;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* Specific style for the manufacturer */
+p.manufacturer {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+/* Specific style for the uses section */
+p.uses {
+  font-size: 15px;
+  color: #4CAF50;  /* Green color */
+  font-style: italic;  /* Italic text for emphasis */
+  margin: 5px 0;
+}
+
+/* Ensure responsive design on smaller screens */
+@media (max-width: 600px) {
+  .medicine-item {
+    width: 90%;
+  }
+
+  .medicine-grid {
+    flex-direction: column;
+  }
+}
